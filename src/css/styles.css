@@ -1,9 +1,21 @@
 :root {
     --font: 'Heebo', sans-serif;
+
+    --color: #f8f8f8;
+    --color-secundaria: #1c336a;
+    --color-terciaria: #FF0000;
+
+    --background-color: #1c336a;
+    --background-color-secundaria: #f8f8f8;
+
+    --color-border: #f8f8f8;
+    --color-border-secundaria: #1c336a;
+    --color-border-terciaria: #dfdfdf;
+    --color-border-quartenaria: #FF0000;
 }
 
 body {
-    background-color: #1c336a;
+    background-color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +24,7 @@ body {
 
 .container {
     margin: 100px;
-    border: 2px solid #f8f8f8;
+    border: 2px solid var(--color-border);
     padding: 30px 40px;
     width: 100%;
     max-width: 500px;
@@ -20,7 +32,7 @@ body {
 }
 
 .new-task-container {
-    background-color: #f8f8f8;
+    background-color: var(--background-color-secundaria);
     padding: 30px 20px;
     border-radius: 3px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -36,14 +48,14 @@ body {
     border-radius: 3px;
     padding: 12px;
     border: 0;
-    border: 2px solid #dfdfdf;
+    border: 2px solid var(--color);
     opacity: 1;
     width: 100%;
 }
 
 .new-task-input:focus {
     outline: none;
-    border: 2px solid #0e2459;
+    border: 2px solid var(--color-border-secundaria);
 }
 
 .new-task-button {
@@ -54,7 +66,7 @@ body {
     padding: 12px;
     cursor: pointer;
     background-color: #1c336a;
-    color: #f8f8f8;
+    color: var(--color);
     text-transform: uppercase;
     opacity: 1;
     width: 100%;
@@ -65,7 +77,7 @@ body {
 }
 
 .tasks-container {
-    background-color: #f8f8f8;
+    background-color: var(--background-color-secundaria);
     padding: 30px 20px;
     margin-top: 60px;
     border-radius: 3px;
@@ -79,7 +91,7 @@ body {
     align-items: center;
     margin: 6px 0 12px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #dfdfdf;
+    border-bottom: 2px solid var(--color-border-terciaria);
 }
 
 .task-item p {
@@ -88,7 +100,7 @@ body {
 }
 
 .task-item i {
-    color: #1c336a;
+    color: var(--color-secundaria);
     font-size: 1.5rem;
     padding: 12px;
     border-radius: 3px;
@@ -102,11 +114,11 @@ body {
 
 /* Utilities */
 .error {
-    border: 2px solid red !important;
+    border: 2px solid var(--color-border-quartenaria) !important;
 }
 
 .error::placeholder {
-    color: red;
+    color: var(--color-terciaria);
 }
 
 .completed {

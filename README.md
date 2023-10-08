@@ -21,7 +21,7 @@ Tecnologias Utilizadas:
 Créditos:
 * Criado com base do Canal no YouTube | [Felipe Rocha • dicasparadevs](https://www.youtube.com/@dicasparadevs)
 
-Implantação do Projeto no Vercel: [Explore o projeto clicando aqui.]()
+Implantação do Projeto no Vercel: [Explore o projeto clicando aqui.](https://lista-de-tarefas-v1.vercel.app/)
 
 ---
 
@@ -40,4 +40,4 @@ Technologies used:
 Credits:
 * Created on the basis of the YouTube channel | [Felipe Rocha • dicasparadevs](https://www.youtube.com/@dicasparadevs)
 
-Project deployment on Vercel: [Explore the project by clicking here.]()
+Project deployment on Vercel: [Explore the project by clicking here.](https://lista-de-tarefas-v1.vercel.app/)
